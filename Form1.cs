@@ -47,6 +47,7 @@ namespace Battleship
 
         //------------------------------------
         //This function initializes the board
+        //JK
         //-----------------------------------
         public void init()
         {
@@ -121,6 +122,7 @@ namespace Battleship
 
         }
 
+        //HH
         public void buttonClick(object sender, EventArgs eArgs)
         {
             Button clickedButton = sender as Button;
@@ -225,6 +227,7 @@ namespace Battleship
         //------------------------------------
         //This function makes a move for the computer
         //by using a random x and y value
+        //HH
         //-----------------------------------
         public void makeMoveComp()
         {
@@ -284,6 +287,7 @@ namespace Battleship
         //------------------------------------
         //This function converts the name of 
         //the button to an x and y coordinate
+        //TG
         //-----------------------------------
         public void convertToCoord(Button buttonNum)
         {
@@ -340,6 +344,7 @@ namespace Battleship
         //------------------------------------
         //This function places the ships randomly
         //for the computer.
+        //JK
         //-----------------------------------
         private void setupBoardComputer()
         {
@@ -389,6 +394,7 @@ namespace Battleship
         }
 
         //the finish placing ships button
+        //HH
         private void button10_Click(object sender, EventArgs e)
         {
             phase = 1;
