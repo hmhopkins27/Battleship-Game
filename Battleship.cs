@@ -39,6 +39,7 @@ namespace Battleship
         }
 
         //This function clears the board
+        //HH
         public void clearBoard()
         {
             for (int i = 0; i < 10; i++)
@@ -55,6 +56,7 @@ namespace Battleship
         //It takes an x and y coordinate as parameter
         //It returns true if the move was made successfully
         //and false if it was not.
+        //HH
         //---------------------------------------------------
         public bool makeMove(int x, int y)
         {
@@ -80,6 +82,7 @@ namespace Battleship
         //It takes an x and y coordinate as a parameter
         //It returns true if a ship was hit and false
         //if a ship was not hit. 
+        //HH
         //---------------------------------------------------
         public bool isHit(int x, int y)
         {
@@ -103,6 +106,7 @@ namespace Battleship
         //coordinate as parameters.
         //It returns true if the ship was placed successfully
         //and false if it was not.
+        //HH
         //---------------------------------------------------
         public bool placeShip(int shipSize, int direction, int x, int y)
         {
@@ -175,6 +179,7 @@ namespace Battleship
         //It takes in which ship it is as a parameter.
         //It returns true if the ship is destroyed and false
         //if it is not.
+        //HH
         //---------------------------------------------------
         public bool shipCheck(int ship)
         {
@@ -207,6 +212,7 @@ namespace Battleship
         //It takes in an x and y coordinate as parameters.
         //It returns an integer that is the value of what is
         //at that point in the grid.
+        //HH
         //---------------------------------------------------
         public int returnVal(int x, int y)
         {
@@ -218,6 +224,7 @@ namespace Battleship
         //No parameters.
         //It returns true if there is a winner and false if 
         //there is not a winner.
+        //HH
         //---------------------------------------------------
         public bool checkBoard()
         {
